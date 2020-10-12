@@ -431,3 +431,8 @@ MigrationBackup/
 .ionide/
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,rider
+Patterns/.idea/.idea.Patterns/riderModule.iml
+Patterns/.idea/.idea.Patterns/.idea/vcs.xml
+Patterns/.idea/.idea.Patterns/.idea/misc.xml
+Patterns/.idea/.idea.Patterns/.idea/indexLayout.xml
+Patterns/.idea/.idea.Patterns/.idea/encodings.xml

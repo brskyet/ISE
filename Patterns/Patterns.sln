@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns.csproj", "{3FC3CC12-8962-47BC-93A8-4EFE93E13378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{984DE322-7CD3-434D-84E5-19CD66F12211}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC3CC12-8962-47BC-93A8-4EFE93E13378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC3CC12-8962-47BC-93A8-4EFE93E13378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC3CC12-8962-47BC-93A8-4EFE93E13378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC3CC12-8962-47BC-93A8-4EFE93E13378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984DE322-7CD3-434D-84E5-19CD66F12211}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984DE322-7CD3-434D-84E5-19CD66F12211}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984DE322-7CD3-434D-84E5-19CD66F12211}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984DE322-7CD3-434D-84E5-19CD66F12211}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
