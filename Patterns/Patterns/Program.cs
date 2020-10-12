@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using ObserverAndIterator.Bank;
+using Patterns.Helpers;
 using Patterns.ObserverAndIterator.DetectingSystem;
 using Patterns.ObserverAndIterator.Services;
 using Strategy.Abstractions;
@@ -17,15 +18,15 @@ namespace Patterns
             
             var message = "Hell to world!";
             
-            var xmlGenerator = new XmlGenerator();
+            IMessageGenerator xmlGenerator = new XmlGenerator();
             
             Console.WriteLine("------------XML-------------");
-            Console.WriteLine(SendMessage(message, xmlGenerator));
+            Console.WriteLine(MessageSender.SendMessage(message, xmlGenerator));
             
-            var jsonGenerator = new JsonGenerator();
+            IMessageGenerator jsonGenerator = new JsonGenerator();
             
             Console.WriteLine("\n\n------------JSON------------");
-            Console.WriteLine(SendMessage(message, jsonGenerator));
+            Console.WriteLine(MessageSender.SendMessage(message, jsonGenerator));
             
             // Observer and Iterator
             Console.WriteLine("\n\n------------Observer and Iterator------------");
@@ -38,9 +39,6 @@ namespace Patterns
             bankManager.PrintAllCustomersBallance(bank);
         }
 
-        private static string SendMessage(string message, IMessageGenerator generator)
-        {
-            return generator.GenerateSendingText(message);
-        }
+
     }
 }

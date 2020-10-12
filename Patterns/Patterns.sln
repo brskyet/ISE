@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns.csproj", "{3FC3CC12-8962-47BC-93A8-4EFE93E13378}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns", "Patterns\Patterns.csproj", "{3FC3CC12-8962-47BC-93A8-4EFE93E13378}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{984DE322-7CD3-434D-84E5-19CD66F12211}"
 EndProject
