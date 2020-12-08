@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections;
 using ObserverAndIterator.Bank;
+using ObserverAndIterator.DetectingSystem;
+using ObserverAndIterator.Services;
 using Patterns.Helpers;
-using Patterns.ObserverAndIterator.DetectingSystem;
-using Patterns.ObserverAndIterator.Services;
 using Strategy.Abstractions;
 using Strategy.Services;
 
@@ -38,7 +38,5 @@ namespace Patterns
             
             bankManager.PrintAllCustomersBallance(bank);
         }
-
-
     }
 }

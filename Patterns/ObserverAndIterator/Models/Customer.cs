@@ -1,4 +1,4 @@
-﻿namespace Patterns.ObserverAndIterator.Models
+﻿namespace ObserverAndIterator.Models
 {
     public class Customer
     {

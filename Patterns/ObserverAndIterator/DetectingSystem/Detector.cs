@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Patterns.ObserverAndIterator.DetectingSystem
+namespace ObserverAndIterator.DetectingSystem
 {
     public class Detector
     {

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections;
-using Patterns.ObserverAndIterator.Models;
+using ObserverAndIterator.Models;
 
-namespace Patterns.ObserverAndIterator.Services
+namespace ObserverAndIterator.Services
 {
     public class BankManager
     {
