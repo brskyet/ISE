@@ -1,6 +1,6 @@
 ﻿using Strategy.Abstractions;
 
-namespace Patterns.Helpers
+namespace Strategy.Services
 {
     public class MessageSender
     {

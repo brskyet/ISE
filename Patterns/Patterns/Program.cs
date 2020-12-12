@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections;
+using IoC;
+using IoC.NPCs;
+using IoC.Services;
+using ObserverAndIterator;
 using ObserverAndIterator.Bank;
 using ObserverAndIterator.DetectingSystem;
 using ObserverAndIterator.Services;
-using Patterns.Helpers;
+using Strategy;
 using Strategy.Abstractions;
 using Strategy.Services;
 
@@ -13,30 +17,20 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            // Strategy
-            Console.WriteLine("------------Strategy------------");
-            
-            var message = "Hell to world!";
-            
-            IMessageGenerator xmlGenerator = new XmlGenerator();
-            
-            Console.WriteLine("------------XML-------------");
-            Console.WriteLine(MessageSender.SendMessage(message, xmlGenerator));
-            
-            IMessageGenerator jsonGenerator = new JsonGenerator();
-            
-            Console.WriteLine("\n\n------------JSON------------");
-            Console.WriteLine(MessageSender.SendMessage(message, jsonGenerator));
-            
-            // Observer and Iterator
-            Console.WriteLine("\n\n------------Observer and Iterator------------");
-            
-            IEnumerable bank = new BankCollection();
-            var bankManager = new BankManager();
-            
-            bankManager.IntruderDetected += Detector.Warning;
-            
-            bankManager.PrintAllCustomersBallance(bank);
+            var pattern = System.Environment.GetEnvironmentVariable("Pattern");
+
+            switch (pattern)
+            {
+                case { } p when p == "Strategy":
+                    StrategyExecutor.Execute();
+                    break;
+                case { } p when p == "ObserverAndIterator":
+                    ObserverAndIteratorExecutor.Execute();
+                    break;
+                case { } p when p == "IoC":
+                    IoCExecutor.Execute();
+                    break;
+            }
         }
     }
 }

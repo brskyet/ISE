@@ -8,7 +8,7 @@ namespace ObserverAndIterator.Services
     {
         public event EventHandler<string> IntruderDetected;
         
-        public void PrintAllCustomersBallance(IEnumerable collection)
+        public void PrintAllCustomersBalance(IEnumerable collection)
         {
             var enumerator = collection.GetEnumerator();
 
