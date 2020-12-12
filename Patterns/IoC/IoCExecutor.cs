@@ -1,4 +1,5 @@
-﻿using IoC.NPCs;
+﻿using System;
+using IoC.NPCs;
 using IoC.Services;
 
 namespace IoC
@@ -12,10 +13,12 @@ namespace IoC
             
             var firstNpc = new Npc(mercenary);
             var secondNpc = new Npc(citizen);
-            
+
+            Console.WriteLine("First NPC");
             firstNpc.Communicate();
-            secondNpc.Communicate();
             firstNpc.Threaten();
+            Console.WriteLine("Second NPC");
+            secondNpc.Communicate();
             secondNpc.Threaten();
         }
     }
