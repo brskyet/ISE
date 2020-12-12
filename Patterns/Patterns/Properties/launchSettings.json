@@ -1,0 +1,23 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Strategy": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Pattern": "Strategy"
+      }
+    },
+    "ObserverAndIterator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Pattern": "ObserverAndIterator"
+      }
+    },
+    "IoC": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Pattern": "IoC"
+      }
+    }
+  }
+}

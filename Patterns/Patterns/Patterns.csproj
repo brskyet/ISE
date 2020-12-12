@@ -6,6 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\IoC\IoC.csproj" />
       <ProjectReference Include="..\ObserverAndIterator\ObserverAndIterator.csproj" />
       <ProjectReference Include="..\Strategy\Strategy.csproj" />
     </ItemGroup>
