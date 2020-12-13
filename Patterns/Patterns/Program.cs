@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections;
+using AbstractFactoryAndBuilder;
 using IoC;
-using IoC.NPCs;
-using IoC.Services;
 using ObserverAndIterator;
-using ObserverAndIterator.Bank;
-using ObserverAndIterator.DetectingSystem;
-using ObserverAndIterator.Services;
 using Strategy;
-using Strategy.Abstractions;
-using Strategy.Services;
 
 namespace Patterns
 {
@@ -17,18 +10,21 @@ namespace Patterns
     {
         static void Main(string[] args)
         {
-            var pattern = System.Environment.GetEnvironmentVariable("Pattern");
+            var pattern = Environment.GetEnvironmentVariable("Pattern");
 
             switch (pattern)
             {
-                case { } p when p == "Strategy":
+                case { } p when p == "1:Strategy":
                     StrategyExecutor.Execute();
                     break;
-                case { } p when p == "ObserverAndIterator":
+                case { } p when p == "2:ObserverAndIterator":
                     ObserverAndIteratorExecutor.Execute();
                     break;
-                case { } p when p == "IoC":
+                case { } p when p == "3:IoC":
                     IoCExecutor.Execute();
+                    break;
+                case { } p when p == "4:AbstractFactoryAndBuilder":
+                    AbstractFactoryAndBuilderExecutor.Execute();
                     break;
             }
         }
