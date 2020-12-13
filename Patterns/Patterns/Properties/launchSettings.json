@@ -24,6 +24,12 @@
       "environmentVariables": {
         "Pattern": "4:AbstractFactoryAndBuilder"
       }
+    },
+    "5:BFS_DFS_Iterator": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Pattern": "5:BFS_DFS_Iterator"
+      }
     }
   }
 }

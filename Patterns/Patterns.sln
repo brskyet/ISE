@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryAndBuilder", "AbstractFactoryAndBuilder\AbstractFactoryAndBuilder.csproj", "{2F1E604A-D8A2-4410-B681-770FBCE33DA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BFS_DFS_Iterator", "BFS_DFS_Iterator\BFS_DFS_Iterator.csproj", "{9DD9AFD0-46D3-44C8-B7B2-9DD98DC14978}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{2F1E604A-D8A2-4410-B681-770FBCE33DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F1E604A-D8A2-4410-B681-770FBCE33DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F1E604A-D8A2-4410-B681-770FBCE33DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DD9AFD0-46D3-44C8-B7B2-9DD98DC14978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DD9AFD0-46D3-44C8-B7B2-9DD98DC14978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DD9AFD0-46D3-44C8-B7B2-9DD98DC14978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DD9AFD0-46D3-44C8-B7B2-9DD98DC14978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

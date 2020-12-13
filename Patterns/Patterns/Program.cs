@@ -1,5 +1,6 @@
 ﻿using System;
 using AbstractFactoryAndBuilder;
+using BFS_DFS_Iterator;
 using IoC;
 using ObserverAndIterator;
 using Strategy;
@@ -25,6 +26,9 @@ namespace Patterns
                     break;
                 case { } p when p == "4:AbstractFactoryAndBuilder":
                     AbstractFactoryAndBuilderExecutor.Execute();
+                    break;
+                case { } p when p == "5:BFS_DFS_Iterator":
+                    BfsDfsIteratorExecutor.Execute();
                     break;
             }
         }
